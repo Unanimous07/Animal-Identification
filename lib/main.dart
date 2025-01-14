@@ -1,5 +1,4 @@
-
-import 'package:animalide/screens/animals/animal_identification.dart';
+import 'package:animalide/screens/otherScrens/splashScreen.dart';
 import 'package:flutter/material.dart';
 
 
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnimalIdentification(),
+      home: const MySplashScreen(),
     );
   }
 }
